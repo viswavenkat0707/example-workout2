@@ -1,0 +1,8 @@
+<h3>formcomponent</h3>
+<form action="">
+    <label for="">carName:</label>
+<input type="text"  name="carname" [(ngModel)]="carName">
+<button (click)="addCar()" >submit</button>
+</form>
+<br><br>
+<app-exlist [carsInput]="cars"></app-exlist>
